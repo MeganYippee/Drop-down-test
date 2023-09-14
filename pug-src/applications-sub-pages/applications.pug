@@ -1,0 +1,75 @@
+extends ../../templates/mainLayout.pug
+
+block head
+	title Applications — Evolution Controls Inc.
+
+block content
+	br
+	br
+	h1 Applications
+	br
+	br
+	.row
+		.col.product-image
+			iframe.product-photos(width='560' height='315' src='https://www.youtube.com/embed/XDcS66K3Zw8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen='')
+
+		.col.product-description
+			h5 MODBUS/BACNET INTEGRATION
+			p.modbus
+				|A BACnet building automation system may include HVAC, 
+				|lighting, and life safety subsystems. The EVO/ECM-Modbus 
+				|RTU fan system can now be integrated to a BACnet building  
+				|automation network through Modbus to BACnet gateways to 
+				|operate in response to other subsystems. The gateway directs 
+				|the data flow back and forth between BACnet’s subsystems 
+				|and the Modbus network.
+				br
+				br
+				|The EVO/ECM-BACnet-Modebus library provides
+				|the mapping files for the Control Solutions 
+				|B1-10x Babel Buster SPX gateway to translate 
+				|between the EVO/ECM-Modbus RTU registers and the BACnet objects.
+				|See the intgration section in the Application Guide for detail.
+			a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+				| LIBRARY DOWNLOAD
+			a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+				| DOWNLOAD CONFIGURATION AND USER GUIDE
+			a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+				|APPLICATION GUIDE
+	br
+	br
+	.row
+		.col.product-image
+			img.product-photos(src='../src/photos/products-photos/4spd_pro.png' alt='4spd Control Unit')
+		.col.product-description
+			h5 EVO/™ECM-4SPD CONTROL UNIT
+			h6 APPLICATION FOR VAV WITH STAGED ELECTRIC HEAT
+			p
+				|The EVO/ECM-4Spd control can be applied to most EC fan 
+				|powered VAV terminals with staged electric heat.
+				br
+				br
+			h6 The application provides:
+			ul
+				li Energy Savings.
+				li Improved Ventilation.
+				li Improved Comfort.
+			br
+			a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+				| LEARN MORE
+	.row
+		.col.product-image
+			img.product-photos(src='../src/photos/applications/VAV Terminal.JPG' alt='4spd Control Unit')
+		.col.product-description
+			h5 APPLICATION FOR VARIABLE VAV TERMINAL FANS  
+			p
+				|VAV systems were developed in response to the early 1970's energy crisis. 
+				|These systems reduced energy usage, sometimes at the expense of comfort. 
+				|But today's building owners want the VAV system's economy without sacrificing comfort.
+			p
+				|Many applications require a VAV terminal fan to achieve satisfactory comfort.
+				| Recent advances in air moving motor technology allow efficient variable speed operation of these fans.
+			p
+				|Variable speed fans may be applied to improve comfort and save energy.
+			a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+				| LEARN MORE

@@ -1,0 +1,35 @@
+extends ../../templates/mainLayout.pug
+
+block head
+    title Wireless Series — Evolution Controls Inc.
+
+block content 
+    br
+    br
+    h1 Wireless Series
+    br
+    br
+    br
+    .row
+        .col
+            img.product-photos(src='../src/photos/wireless-subpage/EVO_Bluetooth.jpg' alt='BCU and app')
+        .col.product-description
+            p EVO/™ECM-BCU (Bluetooth® Control Unit)
+            p EVO/™BT Configurator (Windows Configurator Tool)
+            p EVO Devices Android and iPhone Apps
+            a.btn.btn-secondary.products(href=baseUrl + 'products-sub-pages/wireless-series-subpage.html' type='button')
+                | SEE MORE
+    br
+    br
+    .row
+        .col
+            img.product-photos(src='../src/photos/wireless-subpage/Handheld.jpg' alt='IRC Remote')
+        .col.product-description
+            ul
+            p EVO/™IRC-Remote (Infrared Remote Control Unit)
+            p EVO/™IRC-Remote Sensor
+            p EVO/™ECM-IRC Controller
+            a.btn.btn-secondary.products(href=baseUrl + 'products-sub-pages/wireless-series-irc-remote.html' type='button')
+                | SEE MORE
+    br
+    br

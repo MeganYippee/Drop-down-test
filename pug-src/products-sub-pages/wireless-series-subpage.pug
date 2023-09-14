@@ -1,0 +1,57 @@
+extends ../../templates/mainLayout.pug
+
+block head
+    title Wireless Series — Evolution Controls Inc.
+
+block content
+    .row
+        .col
+            img.wireless-images(src="../src/photos/wireless-subpage/Bluetooth_Control-unit-zoomed.JPG", alt="BCU Img")
+        .col
+        .col.app
+            img.app-screen(src="../src/photos/wireless-subpage/Device Detail Alarm android.jpg", alt="android app screenshots")
+        .col.app
+            img.app-screen(src="../src/photos/wireless-subpage/Device Detail Alarm iphone.PNG", alt="apple app screenshots")
+        .col
+        .col
+            img.wireless-images(src="../src/photos/wireless-subpage/ECM-BCU-S0.png", alt="BT Config to comp")
+           
+    .row.text
+        .col.wireless-subpage
+            h5 EVO/ECM-BCU BLUETOOTH® CONTROL UNIT
+            ul
+                li
+                        |System solution for small cleanroom fan filter arrays· Indoor air filter units for schools and hospitals
+                li
+                        |Whole house fans
+                li
+                        |Fan installed at hard-to-reach locations
+                li
+                        |Get the control app Evo Devices on Google Play Store and the Apple App Store now.
+            a.btn.btn-secondary.button(href=baseUrl + 'new-products.html' type='button')
+                |DATASHEET
+            
+        .col
+            h5 EVO DEVICES ANDROID AND IPHONE CONTROL APPS
+            p Get the control app Evo Devices on Google Play Store and the Apple App Store now.
+            a(href="")
+                img.app-store(src="../src/photos/wireless-subpage/android-google-play.png", alt="android play store")
+            a(href="")
+                img.app-store(src="../src/photos/wireless-subpage/apple-app-store.png", alt="apple app store")
+            br
+            a.btn.btn-secondary.button(href='//drive.google.com/file/d/1VhcCq08Do_jKyaMfhcuiZ2iqHvJA2O5D/view?usp=sharing' target='_blank' type='button')
+                |ANDROID GUIDE
+            a.btn.btn-secondary.button(href='//drive.google.com/file/d/1UyE1vJ42CP3vA4MjkpYsFiuWKfwfN0Jy/view?usp=sharing' target='_blank' type='button')
+                |IPHONE GUIDE
+        .col.wireless-subpage
+            ul
+                li
+                    |Custom factory configuration
+                li
+                    |Archiving master configuration
+                li
+                    |Quick downloading a master configuration to ECM-BCUs
+            a.btn.btn-secondary.button(href=baseUrl + 'new-products.html' type='button')
+                |BT CONFIGURATOR DOWNLOAD
+            a.btn.btn-secondary.button(href=baseUrl + 'new-products.html' type='button')
+                |BT CONFIGURATOR USER GUIDE
